@@ -1,3 +1,5 @@
+package inheritance;
+
 public abstract class Computer {
 
     int RAM;
@@ -8,11 +10,11 @@ public abstract class Computer {
         Memory = memory;
     }
 
-    abstract void start();
+    public abstract void start();
     abstract void shutdown();
 
-    abstract <T> void GenericMethod(T t);
-    abstract <T> void GenericMethod2();
+    public abstract <T> void GenericMethod(T t);
+    public abstract <T> void GenericMethod2();
 
     public int GetRam()
     {

@@ -1,3 +1,5 @@
+package inheritance;
+
 import java.util.List;
 
 public class GearBox {

@@ -1,3 +1,5 @@
+package interfaces;
+
 public interface IPerson {
     public void Talk();
     public void Walk();
@@ -5,4 +7,4 @@ public interface IPerson {
         System.out.println("Do something !");
     }
 
- }
+}

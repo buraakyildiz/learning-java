@@ -1,11 +1,15 @@
-public class Mac extends Computer{
+package inheritance;
+
+import inheritance.Computer;
+
+public class Mac extends Computer {
 
     public Mac(int RAM, int memory) {
         super(RAM, memory);
     }
 
     @Override
-    void start() {
+    public void start() {
         System.out.println("Starting MAC");
     }
 

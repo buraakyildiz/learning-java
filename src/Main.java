@@ -1,3 +1,5 @@
+import inheritance.*;
+
 public class Main {
     public static void main(String[] args) {
         Computer comp = new Mac(16,32);

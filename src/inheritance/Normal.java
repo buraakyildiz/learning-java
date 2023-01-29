@@ -1,4 +1,8 @@
-public class Normal implements IPerson{
+package inheritance;
+
+import interfaces.IPerson;
+
+public class Normal implements IPerson {
     @Override
     public void Talk() {
     }
